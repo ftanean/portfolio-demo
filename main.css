@@ -1,0 +1,796 @@
+body {
+    background-color:#E7DFD8;
+}
+
+.landing{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    background-color: #E7DFD8;
+}
+
+a:hover{
+    color:#424040;
+}
+
+img.insta-icon:hover{
+    transform:scale(1.1);
+}
+
+img.linked-icon:hover{
+    transform:scale(1.1);
+}
+
+.nav-link{
+    padding-left:0;
+}
+
+.nav-link > li {
+    display:inline-block;
+    list-style: none;
+    padding:2em 6em 2em 6em;
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+    font-size: smaller;
+    color:#424040;
+    letter-spacing:2px;
+}
+
+.nav-link > li:hover{
+    color:#9B4819;
+}
+
+a {
+    text-decoration: none;
+    color:#9B4819;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0fr;
+
+}
+
+.intro-text h1{
+    font-size:4rem;
+    font-family: 'Yeseva One', cursive;
+    margin-bottom:0px;
+    color:#424040;
+}
+
+.intro-text p{
+    font-size:1.2rem;
+    line-height:2rem;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#424040;
+}
+
+.box{
+    border: #424040 solid 0.5px;
+    width:90%;
+    margin:0 auto;
+}
+
+.pic{
+    float:right;
+    padding:2% 2%;
+}
+
+.intro-text{
+    float:left;
+    width:80%;
+    padding:10%;
+}
+
+.handle{
+    margin-top: 50%;
+    margin-bottom:0%;
+
+}
+
+p.handle{
+    font-size: 0.68em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* Projects */
+
+.title h2{
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+    margin-bottom:0;
+    font-size: 3rem;
+    font-family: 'Yeseva One', cursive;
+    color:#424040;
+}
+
+.title p{
+    display:flex;
+    justify-content:center;
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #424040;
+    font-weight: 500;
+    margin:0.5% auto;
+}
+
+.project-cards{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:1fr;
+    margin-top:2%;
+    gap:1%;
+}
+
+.poster{
+    width:40%;
+}
+
+.card p{
+    width:50%;
+    margin-bottom:3%;
+}
+
+.card p:first-child{
+    font-size: 1.2rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: italic;
+    color:#424040;
+    
+}
+
+.card p:last-child{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #424040;
+    margin-top: 3%;
+}
+
+.card{
+    display: grid;
+    place-items: center;
+}
+
+.card img{
+    margin-right:10%;
+   
+}
+
+.card img:hover{
+    transform:scale(1.1);
+   
+}
+
+/* About Me */
+
+
+.about h3{
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+    margin-bottom:0;
+    font-size: 3rem;
+    font-family: 'Yeseva One', cursive;
+    color:#424040;
+}
+
+.about-me{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top:5%;
+  
+}
+
+.pic-fiona > img{
+    width:30%;
+    margin:0 auto;
+}
+
+.des p{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #424040;
+    margin-bottom:1%;
+    margin-top:15%;
+}
+
+.pic-fiona{
+    display:grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start : 1;
+    grid-row-end: 4;
+}
+
+.first-about p:first-child{
+    margin-top:15%;
+
+}
+
+.first-about p:last-child{
+    margin-top:15%;
+    
+}
+
+.first-about p{
+    display:grid;
+    justify-items: right;
+   
+}
+
+.second-about p:first-child{
+    margin-top:15%;
+ 
+}
+
+.rule {
+    height: 2px;
+    background:#424040;
+  }
+  
+.rule:after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #424040;
+    margin-top: -4px;
+  }
+  
+.rule-left:after {
+float: right;
+}
+
+.rule-right:after {
+float:left;
+}
+
+.first-about{
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start : 1;
+grid-row-end: 3;
+z-index: 1;
+}
+
+.second-about{
+grid-column-start: 4;
+grid-column-end: 6;
+grid-row-start : 1;
+grid-row-end: 3;
+z-index: 1;
+}
+
+.rule-left-1 {
+    width: 29%;
+    margin-left: 74%;
+}
+
+.rule-left-2 {
+    width: 39%;
+    margin-left: 63%;
+}
+
+.rule-right-1 {
+    width: 56%;
+    margin-right: 10%;
+}
+
+.rule-right-2 {
+    width: 39%;
+}
+
+
+/* Contact Me */
+
+
+
+.contact-box{
+    border: #424040 solid 0.5px;
+    width:90%;
+    margin:auto;
+}
+
+
+.contact-title {
+    color:#424040;
+    padding:5%;
+}
+
+.contact-title > h4{
+    font-size: 4rem;
+    font-family: 'Yeseva One', cursive;
+    margin-bottom:1%;
+}
+
+.contact-title > p {
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #424040;
+    font-weight: 500;
+}
+
+
+.info p:first-child{
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.info p:nth-child(2){
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+
+
+.contact-info-box{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+hr{
+    border:none;
+    width:70%;
+    background-color: #000;
+    margin:0;
+    height:1%;
+}
+
+.info{
+    margin-left: 15%;
+    padding-bottom: 40%;
+}
+
+.contact-container{
+    margin-bottom:5%;
+}
+
+/* Media Query */
+/*
+@media (min-width:1051px) and (max-width:2800px){
+
+  } */
+
+@media (min-width:800px) and (max-width:1050px){
+    .nav-link > li {
+        display:inline-block;
+        list-style: none;
+        padding:2em 2em 2em 2em;
+        font-family: 'Red Hat Display', sans-serif;
+        text-transform: uppercase;
+        font-size: smaller;
+        color:#424040;
+        letter-spacing:2px;
+    }
+
+    .nav-link{
+        padding-left:0;
+    }
+    
+
+    a {
+        text-decoration: none;
+        color:#9B4819;
+    }
+    
+    .grid-container{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    .pic{
+        padding:2% 2%;
+        width:20%;
+        border-radius: 50%;
+        margin-top: 5%;
+        margin-left:auto;
+        margin-right:auto;
+       
+    }
+
+  
+    .intro-text h1{
+        font-size:4rem;
+        font-family: 'Yeseva One', cursive;
+        margin-bottom:0px;
+        color:#424040;
+        text-align: center;
+    }
+    
+    .intro-text p:nth-child(2){
+        font-size:1.2rem;
+        line-height:2rem;
+        font-family: 'Red Hat Display', sans-serif;
+        color:#424040;
+        text-align: center;
+    }
+
+    .intro-pic{
+        display:grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:1;
+        grid-row-end:2;
+    }
+
+    .intro-text{
+      
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:1;
+        grid-row-end:2;
+        margin-top:12%;
+    }
+
+    .box{
+        height:auto;
+    }
+
+    .handle{
+        margin: auto;
+        margin-top:20%;
+    }
+
+    .intro-text p:nth-child(3){
+        line-height:2rem;
+        font-family: 'Red Hat Display', sans-serif;
+        color:#424040;
+        text-align: center;
+    }
+
+    .intro-text a:nth-child(4){
+       display: inline-block;
+       margin-left:45%;
+    }
+
+    .social {
+        width:max-content;
+        margin:0 auto;
+    }
+    
+
+    /*About Me*/
+    .pic-fiona > img{
+        width:40%;
+        margin: auto;
+    }
+
+    .pic-fiona{
+        display:grid;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start : 1;
+        grid-row-end: 4;
+    }
+
+
+    
+
+}
+  
+
+@media (min-width:340px) and (max-width:799px){
+
+    .nav-link > li {
+        display:none;
+    }
+
+    .grid-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 0fr;
+    
+    }
+
+     
+    .grid-container{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    .pic{
+        padding:2% 2%;
+        width:25%;
+        border-radius: 50%;
+        margin-top: 5%;
+        margin-left:auto;
+        margin-right:auto;
+       
+    }
+
+  
+    .intro-text h1{
+        font-size:3rem;
+        font-family: 'Yeseva One', cursive;
+        margin-bottom:0px;
+        color:#424040;
+        text-align: center;
+    }
+    
+    .intro-text p:nth-child(2){
+        font-size:1rem;
+        line-height:2rem;
+        font-family: 'Red Hat Display', sans-serif;
+        color:#424040;
+        text-align: center;
+    }
+
+    .intro-pic{
+        display:grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:1;
+        grid-row-end:2;
+    }
+
+    .intro-text{
+      
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:1;
+        grid-row-end:2;
+        margin-top:18%;
+    }
+
+    .box{
+        height:auto;
+    }
+
+    .handle{
+        margin: auto;
+        margin-top:20%;
+
+    }
+
+    .intro-text p:nth-child(3){
+        line-height:2rem;
+        font-family: 'Red Hat Display', sans-serif;
+        color:#424040;
+        text-align: center;
+    }
+
+    .intro-text a:nth-child(4){
+       display: inline-block;
+    }
+
+    .social {
+        width:max-content;
+        margin:0 auto;
+    }
+  
+
+    /*Projects*/
+
+.title h2{
+    display:flex;
+    justify-content: center;
+    margin-top:15%;
+    margin-bottom:0;
+    font-size: 2rem;
+    font-family: 'Yeseva One', cursive;
+    color:#424040;
+}
+
+
+.title p{
+    display:flex;
+    justify-content:center;
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+    font-size: smaller;
+    letter-spacing: 2px;
+    color: #424040;
+    font-weight: 500;
+    text-align: center;
+    margin:0.5% auto;
+}
+
+.project-cards{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    margin-top:2%;
+    gap:1%;
+}
+
+.poster{
+    width:40%;
+}
+
+.card p{
+    width:50%;
+    margin-bottom:3%;
+}
+
+.card p:first-child{
+    font-size: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: italic;
+    color:#424040;
+    text-align: center;
+    
+}
+
+.card p:last-child{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #424040;
+    margin-top: 3%;
+    font-size: smaller;
+    text-align: center;
+}
+
+.card img {
+    margin-right:0;
+}
+
+
+/*About Me*/
+
+.about h3{
+    display:flex;
+    justify-content: center;
+    margin-top:15%;
+    margin-bottom:0;
+    font-size: 2rem;
+    font-family: 'Yeseva One', cursive;
+    color:#424040;
+}
+
+.about-me{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  
+}
+
+
+.pic-fiona > img{
+    width:50%;
+    margin:0 auto;
+}
+
+.des p{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #424040;
+    margin-bottom:1%;
+    margin-top:15%;
+    font-size: small;
+}
+
+.pic-fiona{
+    display:grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start : 1;
+    grid-row-end: 4;
+}
+
+.first-about p{
+    display:inline-block;
+
+}
+
+
+
+.rule {
+    height: 0px;
+    background:#424040;
+  }
+  
+.rule:after {
+   display:none;
+  }
+  
+
+.first-about{
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start : 1;
+grid-row-end: 3;
+z-index: 1;
+margin-left:20%;
+width:70%;
+}
+
+.second-about{
+grid-column-start: 4;
+grid-column-end: 6;
+grid-row-start : 1;
+grid-row-end: 3;
+z-index: 1;
+margin-left:20%;
+width:70%;
+}
+
+.rule-left-1 {
+
+    margin-left: 100%;
+}
+
+.rule-left-2 {
+    margin-left: 63%;
+}
+
+.rule-right-1 {
+
+    margin-right: 10%;
+}
+
+/*Contact Me*/
+
+.contact-box{
+    border: #424040 solid 0.5px;
+    width:90%;
+    margin:auto;
+}
+
+
+.contact-title {
+    color:#424040;
+    padding:5%;
+    text-align: center;
+}
+
+.contact-title > h4{
+    font-size: 3rem;
+    font-family: 'Yeseva One', cursive;
+    margin-bottom:1%;
+}
+
+.contact-title > p {
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #424040;
+    font-weight: 500;
+    font-size:smaller;
+}
+
+
+.info p:first-child{
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.info p:nth-child(2){
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+
+
+.contact-info-box{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 0.4fr;
+
+}
+
+hr{
+    display:none;
+}
+
+
+.contact-container{
+    margin-bottom:5%;
+}
+.info{
+    text-align: center;
+    margin-left:0;
+    padding-bottom: 5%;
+}
+}
